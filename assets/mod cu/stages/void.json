@@ -1,0 +1,119 @@
+{
+	"camera_boyfriend": [
+		-150,
+		0
+	],
+	"_editorMeta": {
+		"boyfriend": "bf",
+		"gf": "gf",
+		"dad": "rt"
+	},
+	"preload": {
+		"images/stage_light": 2,
+		"images/stagecurtains": 2,
+		"images/stagefront": 3,
+		"images/stageback": 3
+	},
+	"girlfriend": [
+		1440,
+		190
+	],
+	"stageUI": "",
+	"boyfriend": [
+		1695,
+		200
+	],
+	"camera_girlfriend": [
+		0,
+		0
+	],
+	"defaultZoom": 0.7,
+	"objects": [
+		{
+			"x": -522,
+			"y": -116,
+			"scale": [
+				1.95,
+				1.3
+			],
+			"image": "fundo",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "sprite1",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": 1357,
+			"y": 752,
+			"scale": [
+				1.1,
+				1.55
+			],
+			"image": "plataformaplayer",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "sprite3",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": 353,
+			"y": -151,
+			"scale": [
+				1,
+				1.25
+			],
+			"image": "plataformart",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "sprite2",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"type": "gf"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"type": "boyfriend"
+		}
+	],
+	"camera_speed": 1.5,
+	"directory": "week1",
+	"opponent": [
+		620,
+		180
+	],
+	"camera_opponent": [
+		450,
+		100
+	],
+	"hide_girlfriend": false
+}

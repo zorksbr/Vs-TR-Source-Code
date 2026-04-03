@@ -1,0 +1,68 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Beep",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "desconfiado",
+			"text": "huh`??",
+			"boxState": "normal",
+			"portrait": "tr",
+			"speed": 0.05,
+			"sound": "tr"
+		},
+		{
+			"expression": "brabo",
+			"text": "O que você ta fazendo no meu quarto!?",
+			"boxState": "normal",
+			"portrait": "tr",
+			"speed": 0.05,
+			"sound": "tr"
+		},
+		{
+			"expression": "talk",
+			"text": "bop",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "desconfiado",
+			"text": "Que?",
+			"boxState": "normal",
+			"portrait": "tr",
+			"speed": 0.05,
+			"sound": "tr"
+		},
+		{
+			"expression": "brabo",
+			"text": "Porque tem uma caixa de som na minha cama!?",
+			"boxState": "normal",
+			"portrait": "tr",
+			"speed": 0.05,
+			"sound": "tr"
+		},
+		{
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "bop"
+		},
+		{
+			"sound": "tr",
+			"speed": 0.05,
+			"portrait": "tr",
+			"boxState": "angry",
+			"expression": "brabo",
+			"text": "OQUE TÁ ACONTECENDO!?-"
+		}
+	]
+}

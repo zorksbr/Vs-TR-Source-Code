@@ -1,0 +1,24 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		-60,
+		-340
+	],
+	"scale": 0.75,
+	"animations": [
+		{
+			"loop_name": "rt",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "rt",
+			"anim": "rt",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "rt"
+}

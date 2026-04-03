@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="frizioboombox.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle0000" x="0" y="1175" width="515" height="1012" frameX="-199" frameY="-218" frameWidth="960" frameHeight="1280"/>
+	<SubTexture name="idle0001" x="2060" y="0" width="515" height="1064" frameX="-199" frameY="-166" frameWidth="960" frameHeight="1280"/>
+	<SubTexture name="idle0002" x="1545" y="0" width="515" height="1101" frameX="-199" frameY="-129" frameWidth="960" frameHeight="1280"/>
+	<SubTexture name="idle0003" x="1030" y="0" width="515" height="1138" frameX="-199" frameY="-92" frameWidth="960" frameHeight="1280"/>
+	<SubTexture name="idle0004" x="515" y="0" width="515" height="1157" frameX="-199" frameY="-73" frameWidth="960" frameHeight="1280"/>
+	<SubTexture name="idle0005" x="0" y="0" width="515" height="1175" frameX="-199" frameY="-55" frameWidth="960" frameHeight="1280"/>
+</TextureAtlas>

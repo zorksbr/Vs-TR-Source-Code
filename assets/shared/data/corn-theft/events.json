@@ -1,0 +1,61 @@
+{
+	"events": [
+		[
+			133571.428571429,
+			[
+				["Lyrics", "Because he add me...", "ffffff"]
+			]
+		],
+		[
+			135000,
+			[
+				["Lyrics", "Why you add me...", "ffffff"]
+			]
+		],
+		[
+			135857.142857143,
+			[
+				["Lyrics", "", "ffffff"]
+			]
+		],
+		[
+			139285.714285714,
+			[
+				["Lyrics", "I-", "ffffff"]
+			]
+		],
+		[
+			140250,
+			[
+				["Lyrics", "I don't care... You want to", "ffffff"]
+			]
+		],
+		[
+			143142.857142857,
+			[
+				["Lyrics", "I'll block you, I'm never coming back again.", "ffffff"]
+			]
+		],
+		[
+			145571.428571429,
+			[
+				["Lyrics", "", "ffffff"]
+			]
+		],
+		[
+			147571.428571429,
+			[
+				["Lyrics", "Bye Baa!", "ffffff"]
+			]
+		],
+		[
+			148571.428571429,
+			[
+				["Zoom", "0.8", ""],
+				["Flash", "1", "1"],
+				["Lyrics", " ", "ffffff"]
+			]
+		]
+	],
+	"format": "psych_v1"
+}

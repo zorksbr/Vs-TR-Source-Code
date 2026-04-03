@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"expression": "confuso",
+			"text": "Cara...",
+			"boxState": "normal",
+			"sound": "tr",
+			"speed": 0.05,
+			"portrait": "tr"
+		},
+		{
+			"expression": "normal",
+			"text": "Foi legal até...",
+			"boxState": "normal",
+			"sound": "tr",
+			"speed": 0.05,
+			"portrait": "tr"
+		},
+		{
+			"expression": "talk",
+			"text": "eeh",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "desconfiado",
+			"text": "Mas ainda eu não entendo porque isso ta acontecendo",
+			"boxState": "normal",
+			"sound": "tr",
+			"speed": 0.05,
+			"portrait": "tr"
+		},
+		{
+			"expression": "talk",
+			"text": "denovo.",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confuso",
+			"text": "uhh...",
+			"boxState": "normal",
+			"sound": "tr",
+			"speed": 0.05,
+			"portrait": "tr"
+		},
+		{
+			"expression": "normal",
+			"text": "Tá bom!",
+			"boxState": "normal",
+			"sound": "tr",
+			"speed": 0.05,
+			"portrait": "tr"
+		}
+	]
+}

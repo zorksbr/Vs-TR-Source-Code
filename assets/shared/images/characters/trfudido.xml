@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="trfudido.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="up0000" x="0" y="1119" width="726" height="1178" frameX="-198" frameY="-27" frameWidth="980" frameHeight="1233"/>
+	<SubTexture name="a0000" x="2185" y="0" width="674" height="1160" frameX="-174" frameY="-45" frameWidth="980" frameHeight="1233"/>
+	<SubTexture name="right0000" x="0" y="0" width="838" height="1119" frameX="-109" frameY="-89" frameWidth="980" frameHeight="1233"/>
+	<SubTexture name="down0000" x="2185" y="1160" width="469" height="954" frameX="-235" frameY="-258" frameWidth="980" frameHeight="1233"/>
+	<SubTexture name="idle0000" x="1513" y="0" width="672" height="1183" frameX="-173" frameY="-21" frameWidth="980" frameHeight="1233"/>
+	<SubTexture name="left0000" x="838" y="0" width="675" height="1184" frameX="-15" frameY="-20" frameWidth="980" frameHeight="1233"/>
+</TextureAtlas>

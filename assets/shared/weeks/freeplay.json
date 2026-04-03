@@ -1,0 +1,117 @@
+{
+	"storyName": "Your New Week",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Smartness",
+			"tr",
+			[
+				46,
+				113,
+				253
+			]
+		],
+		[
+			"Wheels",
+			"trfudido",
+			[
+				206,
+				206,
+				206
+			]
+		],
+		[
+			"G.o.d.m.o.d.e",
+			"tr",
+			[
+				46,
+				113,
+				253
+			]
+		],
+		[
+			"Nice",
+			"tr",
+			[
+				46,
+				113,
+				253
+			]
+		],
+		[
+			"Greatest REALITY",
+			"tr",
+			[
+				46,
+				113,
+				253
+			]
+		],
+		[
+			"Hatred",
+			"bambi",
+			[
+				0,
+				213,
+				40
+			]
+		],
+		[
+			"Exp-0470-47",
+			"rt",
+			[
+				180,
+				200,
+				235
+			]
+		],
+		[
+			"House",
+			"dave",
+			[
+				0,
+				100,
+				255
+			]
+		],
+		[
+			"Corn-Theft",
+			"bambi",
+			[
+				0,
+				213,
+				40
+			]
+		],
+		[
+			"tr-vs-pao-epik-battle",
+			"pao",
+			[
+				255,
+				193,
+				80
+			]
+		],
+		[
+			"Simple Message",
+			"starnailha",
+			[
+				114,
+				145,
+				212
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "Custom Week",
+	"hiddenUntilUnlocked": false
+}

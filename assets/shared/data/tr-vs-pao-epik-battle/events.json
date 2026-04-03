@@ -1,0 +1,17 @@
+{
+	"events": [
+		[
+			13200,
+			[
+				["Play Animation", "fudido", "pao"]
+			]
+		],
+		[
+			14400,
+			[
+				["Play Animation", "fudido", "pao"]
+			]
+		]
+	],
+	"format": "psych_v1"
+}

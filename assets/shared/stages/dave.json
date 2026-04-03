@@ -1,0 +1,56 @@
+{
+	"_editorMeta": {
+		"boyfriend": "bf",
+		"gf": "gf",
+		"dad": "dave-house"
+	},
+	"boyfriend": [
+		900,
+		100
+	],
+	"isPixelStage": false,
+	"girlfriend": [
+		415,
+		100
+	],
+	"objects": [
+		{
+			"x": -432,
+			"y": -297,
+			"scale": [
+				2.45,
+				2.45
+			],
+			"image": "dave",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "sprite1",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"type": "gf"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"type": "boyfriend"
+		}
+	],
+	"defaultZoom": 0.8,
+	"opponent": [
+		250,
+		100
+	],
+	"directory": "",
+	"hide_girlfriend": false
+}

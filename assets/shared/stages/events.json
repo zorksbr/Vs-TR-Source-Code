@@ -1,0 +1,173 @@
+{
+	"events": [
+		[
+			11520,
+			[
+				["Change Character", "Dad", "rt"]
+			]
+		],
+		[
+			12480,
+			[
+				["Change Character", "Dad", "rt"]
+			]
+		],
+		[
+			17280,
+			[
+				["Change Character", "Dad", "rtpreto"]
+			]
+		],
+		[
+			17340,
+			[
+				["Flash Camera", "1", ""]
+			]
+		],
+		[
+			19200,
+			[
+				["Change Character", "Dad", "rt"]
+			]
+		],
+		[
+			32640,
+			[
+				["Flash Camera", "1", ""]
+			]
+		],
+		[
+			39600,
+			[
+				["Change Character", "Dad", "rtpreto"]
+			]
+		],
+		[
+			40320,
+			[
+				["Flash Camera", "1", ""]
+			]
+		],
+		[
+			59520,
+			[
+				["Change Character", "Dad", "rt"]
+			]
+		],
+		[
+			59580,
+			[
+				["Flash Camera", "1", ""]
+			]
+		],
+		[
+			67200,
+			[
+				["Flash Camera", "1", ""]
+			]
+		],
+		[
+			82560,
+			[
+				["Flash Camera", "1", ""]
+			]
+		],
+		[
+			97920,
+			[
+				["Change Character", "Dad", "rtpreto"]
+			]
+		],
+		[
+			99840,
+			[
+				["Change Character", "Dad", "rt"]
+			]
+		],
+		[
+			101760,
+			[
+				["Flash Camera", "1", ""]
+			]
+		],
+		[
+			101820,
+			[
+				["stage test", "oldhouse", ""]
+			]
+		],
+		[
+			124800,
+			[
+				["Flash Camera", "1", ""]
+			]
+		],
+		[
+			125760,
+			[
+				["Change Character", "Dad", "rtpreto"]
+			]
+		],
+		[
+			140160,
+			[
+				["Change Character", "Dad", "rt"]
+			]
+		],
+		[
+			140220,
+			[
+				["stage test", "void", ""]
+			]
+		],
+		[
+			150720,
+			[
+				["Change Character", "Dad", "rtpreto"]
+			]
+		],
+		[
+			151680,
+			[
+				["Change Character", "Dad", "rt"]
+			]
+		],
+		[
+			155520,
+			[
+				["Flash Camera", "1", ""]
+			]
+		],
+		[
+			170880,
+			[
+				["Change Character", "Dad", "rtpreto"]
+			]
+		],
+		[
+			170940,
+			[
+				["Flash Camera", "1", ""]
+			]
+		],
+		[
+			172800,
+			[
+				["Change Character", "Dad", "rt"]
+			]
+		],
+		[
+			186240,
+			[
+				["Flash Camera", "2", ""]
+			]
+		],
+		[
+			204420,
+			[
+				["Flash Camera", "2", ""]
+			]
+		]
+	],
+	"format": "psych_v1"
+}
