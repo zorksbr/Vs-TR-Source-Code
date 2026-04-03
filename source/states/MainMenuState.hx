@@ -265,11 +265,12 @@ class MainMenuState extends MusicBeatState
 				selectedSomethin = true;
 				FlxG.mouse.visible = false;
 
-				if (ClientPrefs.data.flashing)
+				if (ClientPrefs.data.flashing && magenta != null)
 					FlxFlicker.flicker(magenta, 1.1, 0.15, false);
 
 				var item:FlxSprite;
 				var option:String;
+
 				switch(curColumn)
 				{
 					case CENTER:
@@ -285,55 +286,40 @@ class MainMenuState extends MusicBeatState
 						item = rightItem;
 				}
 
-				FlxFlicker.flicker(item, 1, 0.06, false, false, function(flick:FlxFlicker)
+				if (item != null)
 				{
-					switch (option)
+					FlxFlicker.flicker(item, 1, 0.06, false, false, function(flick:FlxFlicker)
 					{
-						case 'story_mode':
-							MusicBeatState.switchState(new StoryMenuState());
-						case 'freeplay':
-							MusicBeatState.switchState(new FreeplayState());
+						switch (option)
+						{
+							case 'story_mode':
+								MusicBeatState.switchState(new StoryMenuState());
 
-						#if MODS_ALLOWED
-						case 'mods':
-							MusicBeatState.switchState(new ModsMenuState());
-						#end
+							case 'freeplay':
+								MusicBeatState.switchState(new FreeplayState());
 
-						#if ACHIEVEMENTS_ALLOWED
-						case 'achievements':
-							MusicBeatState.switchState(new AchievementsMenuState());
-						#end
+							case 'credits':
+								MusicBeatState.switchState(new CreditsState());
 
-						case 'credits':
-							MusicBeatState.switchState(new CreditsState());
-						case 'options':
-							MusicBeatState.switchState(new OptionsState());
-							OptionsState.onPlayState = false;
-							if (PlayState.SONG != null)
-							{
-								PlayState.SONG.arrowSkin = null;
-								PlayState.SONG.splashSkin = null;
-								PlayState.stageUI = 'normal';
-							}
-						case 'donate':
-							CoolUtil.browserLoad('https://ninja-muffin24.itch.io/funkin');
-							selectedSomethin = false;
-							item.visible = true;
-						default:
-							trace('Menu Item ${option} doesn\'t do anything');
-							selectedSomethin = false;
-							item.visible = true;
-					}
-				});
-				
+							case 'options':
+								MusicBeatState.switchState(new OptionsState());
+
+							default:
+								trace('Menu Item ${option} doesn\'t do anything');
+								selectedSomethin = false;
+								item.visible = true;
+						}
+					});
+				}
+
 				for (memb in menuItems)
 				{
-					if(memb == item)
+					if (memb == item)
 						continue;
 
-					FlxTween.tween(memb, {alpha: 0}, 0.4, {ease: FlxEase.quadOut});
-				}
-			}
+        FlxTween.tween(memb, {alpha: 0}, 0.4, {ease: FlxEase.quadOut});
+    }
+}
 			#if desktop
 			if (controls.justPressed('debug_1'))
 			{
