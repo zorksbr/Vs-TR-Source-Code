@@ -17,20 +17,12 @@
 			"name": "up"
 		},
 		{
-			"offsets": [0, 4],
-			"loop": false,
-			"fps": 24,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "down"
-		},
-		{
 			"offsets": [0, 6],
 			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "left"
+			"name": "right"
 		},
 		{
 			"offsets": [0, 2],
@@ -38,18 +30,26 @@
 			"fps": 24,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "right"
+			"name": "left"
+		},
+		{
+			"offsets": [0, 4],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
 		}
 	],
 	"vocals_file": "",
 	"no_antialiasing": true,
-	"image": "characters/tr",
+	"image": "characters/trold",
 	"position": [-230, -170],
-	"healthicon": "tr",
+	"healthicon": "trold",
 	"flip_x": false,
-	"healthbar_colors": [0, 189, 229],
-	"camera_position": [-330, 340],
+	"healthbar_colors": [0, 121, 255],
+	"camera_position": [70, 350],
 	"sing_duration": 4,
 	"scale": 0.5,
-	"_editor_isPlayer": true
+	"_editor_isPlayer": false
 }

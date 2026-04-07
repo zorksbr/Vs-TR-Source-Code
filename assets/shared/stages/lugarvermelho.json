@@ -6,7 +6,7 @@
 	"_editorMeta": {
 		"boyfriend": "bf",
 		"gf": "gf",
-		"dad": "trfudido"
+		"dad": "trold"
 	},
 	"preload": {
 		"images/stage_light": 2,
@@ -15,28 +15,24 @@
 		"images/stageback": 3
 	},
 	"girlfriend": [
-		400,
+		500,
 		130
 	],
 	"stageUI": "",
 	"boyfriend": [
-		770,
+		950,
 		100
-	],
-	"camera_girlfriend": [
-		0,
-		0
 	],
 	"defaultZoom": 0.85,
 	"objects": [
 		{
-			"x": -192,
-			"y": 19,
+			"x": -78,
+			"y": -47,
 			"scale": [
-				1,
-				1
+				0.75,
+				0.75
 			],
-			"image": "lugarbranco",
+			"image": "lugarvermelho",
 			"flipX": false,
 			"filters": 3,
 			"color": "FFFFFF",
@@ -61,14 +57,18 @@
 			"type": "boyfriend"
 		}
 	],
+	"camera_girlfriend": [
+		0,
+		0
+	],
 	"camera_speed": 1,
 	"directory": "stages",
 	"opponent": [
-		100,
-		100
+		280,
+		50
 	],
 	"camera_opponent": [
-		250,
+		200,
 		50
 	],
 	"hide_girlfriend": false

@@ -5,6 +5,11 @@
 	"weekBackground": "stage",
 	"weekBefore": "tutorial",
 	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"hideStoryMode": true,
 	"songs": [
 		[
@@ -98,6 +103,24 @@
 			]
 		],
 		[
+			"começando agora",
+			"trfudido",
+			[
+				206,
+				206,
+				206
+			]
+		],
+		[
+			"Alternate REALITY",
+			"trold",
+			[
+				14,
+				105,
+				195
+			]
+		],
+		[
 			"Simple Message",
 			"starnailha",
 			[
@@ -106,11 +129,6 @@
 				212
 			]
 		]
-	],
-	"weekCharacters": [
-		"",
-		"",
-		""
 	],
 	"weekName": "Custom Week",
 	"hiddenUntilUnlocked": false
