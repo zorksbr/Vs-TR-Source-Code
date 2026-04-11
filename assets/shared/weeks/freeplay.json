@@ -67,6 +67,15 @@
 			]
 		],
 		[
+			"Hatred-2",
+			"bambi-3d",
+			[
+				0,
+				153,
+				0
+			]
+		],
+		[
 			"Exp-0470-47",
 			"rt",
 			[
@@ -121,6 +130,15 @@
 			]
 		],
 		[
+			"Face-to Face",
+			"rt",
+			[
+				120,
+				215,
+				255
+			]
+		],
+		[
 			"Simple Message",
 			"starnailha",
 			[
@@ -130,6 +148,6 @@
 			]
 		]
 	],
-	"weekName": "Custom Week",
-	"hiddenUntilUnlocked": false
+	"hiddenUntilUnlocked": true,
+	"weekName": "Custom Week"
 }

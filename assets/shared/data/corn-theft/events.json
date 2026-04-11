@@ -1,6 +1,12 @@
 {
 	"events": [
 		[
+			130857.142857143,
+			[
+				["Flash Camera", "1", ""]
+			]
+		],
+		[
 			133571.428571429,
 			[
 				["Lyrics", "Because he add me...", "ffffff"]
@@ -49,11 +55,18 @@
 			]
 		],
 		[
+			148000,
+			[
+				["Change Character", "dad", "bambifaded"]
+			]
+		],
+		[
 			148571.428571429,
 			[
 				["Zoom", "0.8", ""],
 				["Flash", "1", "1"],
-				["Lyrics", " ", "ffffff"]
+				["Lyrics", " ", "ffffff"],
+				["Change Character", " dad", "bambi"]
 			]
 		]
 	],
