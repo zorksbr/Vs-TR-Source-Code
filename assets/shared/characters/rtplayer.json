@@ -48,8 +48,8 @@
 	"healthicon": "rt",
 	"flip_x": false,
 	"healthbar_colors": [255, 255, 255],
-	"camera_position": [190, 350],
+	"camera_position": [-200, 350],
 	"sing_duration": 4,
 	"scale": 0.5,
-	"_editor_isPlayer": false
+	"_editor_isPlayer": true
 }
