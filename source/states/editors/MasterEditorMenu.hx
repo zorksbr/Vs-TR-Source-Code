@@ -1,4 +1,4 @@
-package states.editors;
+-package states.editors;
 
 import backend.WeekData;
 
