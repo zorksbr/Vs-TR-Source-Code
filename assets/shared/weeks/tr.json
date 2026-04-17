@@ -1,0 +1,45 @@
+{
+	"storyName": "TR",
+	"difficulties": "normal",
+	"hideFreeplay": false,
+	"weekBackground": "trweek",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Starting Now",
+			"tr",
+			[
+				66,
+				113,
+				253
+			]
+		],
+		[
+			"Realization",
+			"tr",
+			[
+				66,
+				113,
+				253
+			]
+		],
+		[
+			"DATA-REMOVED",
+			"rt",
+			[
+				206,
+				213,
+				255
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "TR",
+	"hiddenUntilUnlocked": false
+}

@@ -1,0 +1,75 @@
+{
+	"camera_boyfriend": [
+		0,
+		0
+	],
+	"_editorMeta": {
+		"boyfriend": "bf",
+		"gf": "gf",
+		"dad": "trold"
+	},
+	"preload": {
+		"images/stage_light": 2,
+		"images/stagecurtains": 2,
+		"images/stagefront": 3,
+		"images/stageback": 3
+	},
+	"girlfriend": [
+		500,
+		130
+	],
+	"stageUI": "",
+	"boyfriend": [
+		950,
+		100
+	],
+	"defaultZoom": 0.85,
+	"objects": [
+		{
+			"x": -78,
+			"y": -47,
+			"scale": [
+				0.75,
+				0.75
+			],
+			"image": "lugarvermelho",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "sprite1",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"type": "gf"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"type": "boyfriend"
+		}
+	],
+	"camera_girlfriend": [
+		0,
+		0
+	],
+	"camera_speed": 1,
+	"directory": "stages",
+	"opponent": [
+		280,
+		50
+	],
+	"camera_opponent": [
+		200,
+		50
+	],
+	"hide_girlfriend": false
+}

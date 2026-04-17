@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pao.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="fudido0000" x="2010" y="2404" width="1084" height="1444" frameX="2" frameY="-582" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0001" x="0" y="4784" width="1028" height="1125" frameX="-54" frameY="-592" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0002" x="4178" y="2404" width="1084" height="1283" frameX="2" frameY="-724" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0003" x="1084" y="0" width="1084" height="2404" frameX="2" frameY="2" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0004" x="3252" y="0" width="1084" height="2404" frameX="2" frameY="2" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0005" x="2168" y="0" width="1084" height="2404" frameX="2" frameY="2" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0006" x="0" y="0" width="1084" height="2404" frameX="2" frameY="2" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0007" x="3094" y="2404" width="1084" height="1376" frameX="2" frameY="-479" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0008" x="926" y="2404" width="1084" height="1870" frameX="2" frameY="-265" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0009" x="6333" y="3820" width="924" height="924" frameX="-78" frameY="-738" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0010" x="6333" y="4744" width="924" height="924" frameX="-78" frameY="-738" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0011" x="1848" y="5909" width="924" height="924" frameX="-78" frameY="-738" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="right0000" x="5407" y="0" width="926" height="1645" frameX="-137" frameY="-607" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0012" x="6333" y="2896" width="924" height="924" frameX="-78" frameY="-738" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0013" x="924" y="5909" width="924" height="924" frameX="-78" frameY="-738" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0014" x="5407" y="2569" width="924" height="924" frameX="-78" frameY="-738" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0015" x="3196" y="4784" width="924" height="924" frameX="-78" frameY="-738" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0016" x="5407" y="3493" width="924" height="924" frameX="-78" frameY="-738" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0017" x="3696" y="5909" width="924" height="924" frameX="-78" frameY="-738" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0018" x="4120" y="4784" width="924" height="924" frameX="-78" frameY="-738" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="up0000" x="0" y="2404" width="926" height="2380" frameX="-77" frameY="-11" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="down0000" x="1028" y="4784" width="1084" height="926" frameX="2" frameY="-737" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="left0000" x="4336" y="0" width="1071" height="2395" frameX="-1" frameY="-4" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0019" x="2112" y="4784" width="1084" height="924" frameX="2" frameY="-738" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0020" x="6333" y="978" width="954" height="964" frameX="-63" frameY="-721" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0021" x="6333" y="1942" width="929" height="954" frameX="-75" frameY="-723" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0022" x="5407" y="1645" width="924" height="924" frameX="-78" frameY="-738" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0023" x="6333" y="0" width="979" height="978" frameX="-51" frameY="-711" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0024" x="2772" y="5909" width="924" height="924" frameX="-78" frameY="-738" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0025" x="7312" y="0" width="873" height="934" frameX="-104" frameY="-748" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="fudido0026" x="0" y="5909" width="924" height="924" frameX="-78" frameY="-738" frameWidth="1080" frameHeight="2400"/>
+	<SubTexture name="idle0000" x="5044" y="4784" width="924" height="924" frameX="-78" frameY="-738" frameWidth="1080" frameHeight="2400"/>
+</TextureAtlas>

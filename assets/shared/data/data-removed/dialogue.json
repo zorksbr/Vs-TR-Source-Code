@@ -1,0 +1,84 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Humano.",
+			"boxState": "normal",
+			"sound": "rt",
+			"speed": 0.15,
+			"portrait": "rt"
+		},
+		{
+			"expression": "rt",
+			"text": "Felizmente você conseguiu  fazer NÓS termos o controle.",
+			"boxState": "normal",
+			"sound": "rt",
+			"speed": 0.145,
+			"portrait": "rt"
+		},
+		{
+			"expression": "talk",
+			"text": "Agora...",
+			"boxState": "normal",
+			"portrait": "rt",
+			"speed": 0.145,
+			"sound": "rt"
+		},
+		{
+			"sound": "rt",
+			"speed": 0.145,
+			"portrait": "rt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Não vai ter final feliz, nunca vai ser feliz..\r\n"
+		},
+		{
+			"sound": "bf",
+			"speed": 0.115,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Q-Quem é você!?"
+		},
+		{
+			"sound": "rt",
+			"speed": 0.105,
+			"portrait": "rt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Em sua mente, você deve achar que eu sou o \"vilão\" da história.\r"
+		},
+		{
+			"sound": "rt",
+			"speed": 0.115,
+			"portrait": "rt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Mas."
+		},
+		{
+			"sound": "rt",
+			"speed": 0.115,
+			"portrait": "rt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Eu sou aquele que determina..."
+		},
+		{
+			"sound": "rt",
+			"speed": 0.15,
+			"portrait": "rt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "o FIM."
+		},
+		{
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Beep..."
+		}
+	]
+}
