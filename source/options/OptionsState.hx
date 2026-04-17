@@ -10,13 +10,9 @@ class OptionsState extends MusicBeatState
 	var options:Array<String> = [
 		'Note Colors',
 		'Controls',
-		'Adjust Delay and Combo',
 		'Graphics',
 		'Visuals',
 		'Gameplay',
-		'P-Slice Options',
-		'V-Slice Options',
-		#if TRANSLATIONS_ALLOWED  'Language', #end
 		#if (TOUCH_CONTROLS_ALLOWED || mobile)'Mobile Options' #end
 	];
 	private var grpOptions:FlxTypedGroup<Alphabet>;
@@ -25,6 +21,7 @@ class OptionsState extends MusicBeatState
 	public static var menuBG:FlxSprite;
 	public static var onPlayState:Bool = false;
 	var exiting:Bool = false;
+	private var bg:FlxSprite;
 
 	private var mainCam:FlxCamera;
 	public static var funnyCam:FlxCamera;
@@ -53,20 +50,10 @@ class OptionsState extends MusicBeatState
 			case 'Visuals':
 				openSubState(new options.VisualsSettingsSubState());
 			case 'Gameplay':
-				openSubState(new options.GameplaySettingsSubState());
-			case 'Adjust Delay and Combo':
-				MusicBeatState.switchState(new options.NoteOffsetState());
-			case 'P-Slice Options':
-				openSubState(new PSliceSubState());
-			case 'V-Slice Options':
 				openSubState(new VSliceSubState());
 			#if (TOUCH_CONTROLS_ALLOWED || mobile)
 			case 'Mobile Options':
 				openSubState(new mobile.options.MobileOptionsSubState());
-			#end
-			#if TRANSLATIONS_ALLOWED
-			case 'Language':
-				openSubState(new options.LanguageSubState());
 			#end
 		}
 	}
@@ -88,13 +75,17 @@ class OptionsState extends MusicBeatState
 		DiscordClient.changePresence("Options Menu", null);
 		#end
 
-		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
-		bg.antialiasing = ClientPrefs.data.antialiasing;
-		bg.color = 0xFFea71fd;
-		bg.setGraphicSize(Std.int(bg.width * 1.175));
-		bg.updateHitbox();
+		var bgList:Array<String> = [
+    	'menubg/tr',
+    	'menubg/tales',
+    	'menubg/henriqueower',
+    	'menubg/blood',
+    	'menubg/zorks'
+		];
 
-		bg.screenCenter();
+		var chosenBG:String = bgList[FlxG.random.int(0, bgList.length - 1)];
+
+		bg = new FlxSprite(-80).loadGraphic(Paths.image(chosenBG));
 		add(bg);
 
 		grpOptions = new FlxTypedGroup<Alphabet>();

@@ -24,10 +24,7 @@ class DesktopMenuState extends FlxBasic
 	var optionShit:Array<String> = [
 		'story_mode',
 		'freeplay',
-		#if MODS_ALLOWED 'mods', #end
-		#if ACHIEVEMENTS_ALLOWED 'awards', #end
 		'credits',
-		#if !switch 'donate', #end
 		'options'
 	];
 
@@ -46,10 +43,6 @@ class DesktopMenuState extends FlxBasic
 		host.bg.scrollFactor.set(0, yScroll);
 		host.bg.updateHitbox();
 		host.bg.screenCenter();
-
-        host.magenta.scrollFactor.set(0, yScroll);
-		host.magenta.updateHitbox();
-		host.magenta.screenCenter();
 
 		camFollow = new FlxObject(0, 0, 1, 1);
 		host.add(camFollow);
@@ -114,9 +107,6 @@ class DesktopMenuState extends FlxBasic
 				{
 					selectedSomethin = true;
 
-					if (VsliceOptions.FLASHBANG)
-						FlxFlicker.flicker(host.magenta, 1.1, 0.15, false);
-
 					FlxFlicker.flicker(menuItems.members[curSelected], 1, 0.06, false, false, function(flick:FlxFlicker)
 					{
 						switch (optionShit[curSelected])
@@ -144,17 +134,6 @@ class DesktopMenuState extends FlxBasic
 										changeItem(0);
 									});
 								}
-
-							#if MODS_ALLOWED
-							case 'mods':
-								MusicBeatState.switchState(new ModsMenuState());
-							#end
-
-							#if ACHIEVEMENTS_ALLOWED
-							case 'awards':
-								MusicBeatState.switchState(new AchievementsMenuState());
-							#end
-
 							case 'credits':
 								MusicBeatState.switchState(new CreditsState());
 							case 'options':

@@ -26,12 +26,17 @@ class CreditsState extends MusicBeatState
 		#end
 
 		persistentUpdate = true;
-		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
-		bg.antialiasing = ClientPrefs.data.antialiasing;
-		bg.setGraphicSize(Std.int(bg.width * 1.175));
-		bg.updateHitbox();
-		bg.screenCenter();
-		add(bg);
+		var bgList:Array<String> = [
+    	'menubg/tr',
+    	'menubg/tales',
+    	'menubg/henriqueower',
+    	'menubg/blood',
+    	'menubg/zorks'
+		];
+
+		var chosenBG:String = bgList[FlxG.random.int(0, bgList.length - 1)];
+
+		bg = new FlxSprite(-80).loadGraphic(Paths.image(chosenBG));
 		
 		grpOptions = new FlxTypedGroup<Alphabet>();
 		add(grpOptions);

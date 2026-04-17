@@ -48,21 +48,18 @@ class MainMenuState extends MusicBeatState
 
 		persistentUpdate = persistentDraw = true;
 
-		bg = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
-		bg.antialiasing = VsliceOptions.ANTIALIASING;
-		bg.setGraphicSize(Std.int(bg.width * 1.175));
-		bg.updateHitbox();
-		bg.screenCenter();
-		add(bg);
+		var bgList:Array<String> = [
+    	'menubg/tr',
+    	'menubg/tales',
+    	'menubg/henriqueower',
+    	'menubg/blood',
+    	'menubg/zorks'
+		];
 
-		magenta = new FlxSprite(-80).loadGraphic(Paths.image('menuDesat'));
-		magenta.antialiasing = VsliceOptions.ANTIALIASING;
-		magenta.setGraphicSize(Std.int(magenta.width * 1.175));
-		magenta.updateHitbox();
-		magenta.screenCenter();
-		magenta.visible = false;
-		magenta.color = 0xFFfd719b;
-		add(magenta);
+		var chosenBG:String = bgList[FlxG.random.int(0, bgList.length - 1)];
+
+		bg = new FlxSprite(-80).loadGraphic(Paths.image(chosenBG));
+		add(bg);
 
 		var psychVer:FlxText = new FlxText(0, FlxG.height - 18, FlxG.width, "Psych Engine " + psychEngineVersion, 12);
 		var fnfVer:FlxText = new FlxText(0, FlxG.height - 18, FlxG.width, 'v${funkinVersion} (P-slice ${pSliceVersion})', 12);

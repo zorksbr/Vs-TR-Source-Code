@@ -46,12 +46,17 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		DiscordClient.changePresence(rpcTitle, null);
 		#end
 
-		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
-		bg.color = 0xFFea71fd;
-		bg.setGraphicSize(Std.int(bg.width * 1.175));
-		bg.screenCenter();
-		bg.antialiasing = ClientPrefs.data.antialiasing;
-		add(bg);
+		var bgList:Array<String> = [
+		'menubg/tr',
+		'menubg/tales',
+		'menubg/henriqueower',
+		'menubg/blood',
+		'menubg/zorks'
+		];
+
+		var chosenBG:String = bgList[FlxG.random.int(0, bgList.length - 1)];
+
+		bg = new FlxSprite(-80).loadGraphic(Paths.image(chosenBG));
 
 		// avoids lagspikes while scrolling through menus!
 		grpOptions = new FlxTypedGroup<Alphabet>();
