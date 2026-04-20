@@ -91,15 +91,18 @@ class MainMenuState extends MusicBeatState
 		{
 			var item:FlxSprite = createMenuItem(option, 0, (num * 140) + 90);
 			item.y += (4 - optionShit.length) * 70;
-			item.screenCenter(X);
+			item.x = FlxG.width - item.width - 100;
 		}
 
 		if (leftOption != null)
 			leftItem = createMenuItem(leftOption, 60, 490);
 		if (rightOption != null)
 		{
-			rightItem = createMenuItem(rightOption, FlxG.width - 60, 490);
-			rightItem.x -= rightItem.width;
+			rightItem = createMenuItem(rightOption, 0, 0);
+
+			// canto inferior esquerdo
+			rightItem.x = 40;
+			rightItem.y = FlxG.height - rightItem.height - 40;
 		}
 
 		// Textos de versão

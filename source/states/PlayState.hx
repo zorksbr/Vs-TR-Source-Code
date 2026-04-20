@@ -491,8 +491,8 @@ class PlayState extends MusicBeatState
 		timeBar = new Bar(0, timeTxt.y + (timeTxt.height / 4), 'timeBar', function() return songPercent, 0, 1);
 		timeBar.scrollFactor.set();
 		timeBar.screenCenter(X);
-		timeBar.alpha = 0;
-		timeBar.visible = showTime;
+		timeBar.alpha = -0;
+		timeBar.visible = false;
 		uiGroup.add(timeBar);
 		uiGroup.add(timeTxt);
 

@@ -1,18 +1,6 @@
 {
 	"events": [
 		[
-			11520,
-			[
-				["Change Character", "Dad", "rt"]
-			]
-		],
-		[
-			12480,
-			[
-				["Change Character", "Dad", "rt"]
-			]
-		],
-		[
 			17280,
 			[
 				["Flash Camera", "1", ""]
@@ -94,8 +82,7 @@
 		[
 			140160,
 			[
-				["Flash Camera", "1", ""],
-				["Change Character", "Dad", "rt"]
+				["Flash Camera", "1", ""]
 			]
 		],
 		[
@@ -114,19 +101,6 @@
 			155520,
 			[
 				["Flash Camera", "1", ""]
-			]
-		],
-		[
-			170880,
-			[
-				["Flash Camera", "1", ""],
-				["Change Character", "Dad", "rtpreto"]
-			]
-		],
-		[
-			172800,
-			[
-				["Change Character", "Dad", "rt"]
 			]
 		],
 		[
