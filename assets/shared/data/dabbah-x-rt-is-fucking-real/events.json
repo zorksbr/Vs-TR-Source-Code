@@ -1,6 +1,18 @@
 {
 	"events": [
 		[
+			0,
+			[
+				["Lyrics", "this is not canon, is just a joke!", "FFFFFF"]
+			]
+		],
+		[
+			2526.31578947368,
+			[
+				["Lyrics", "", ""]
+			]
+		],
+		[
 			10105.2631578947,
 			[
 				["Flash Camera", "1", ""]

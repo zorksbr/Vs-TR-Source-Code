@@ -46,10 +46,10 @@ class CreditsState extends MusicBeatState
 
 		var defaultList:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			["Os Desenvolvedores!"],
-			["ZorksBR",				"zorkscred",		"Criador, Artista, Coder e Composito",			"https://youtube.com/@zorksbr",					"FCE803"],
+			["ZorksBR",				"zorkscred",		"Criador, Artista, Coder e Compositor",			"https://youtube.com/@zorksbr",					"FCE803"],
 			["TR",					"trcred",			"Artista, Criador dos cenários e ta no mod",	"https://youtube.com/@TR47-0",					"34A8EB"],
 			["TalesYT",				"talescred",		"Artista, Compositor e Charter",				"https://youtube.com/@Talesanimations",			"35E62C"],
-			["Midnight",			"midnightcred",		"Artista, criador da logo",						"https://www.youtube.com/@Midnight-l1n",		"664675"],
+			["Midnight",			"midnightcred",		"Artista, criador da logo",						"https://youtube.com/@Midnight-7177",			"664675"],
 			[""],
 			["Contribuidores"],
 			["BloodPea",			"bloodcred",		"Artista",										"https://youtube.com/@Msferraz-u9z",			"D90D0D"],

@@ -146,8 +146,26 @@
 				145,
 				212
 			]
+		],
+		[
+			"Dabbah X RT is fucking real",
+			"dabbah",
+			[
+				86,
+				113,
+				253
+			]
+		],
+		[
+			"Moscow",
+			"tales",
+			[
+				26,
+				213,
+				33
+			]
 		]
 	],
-	"hiddenUntilUnlocked": true,
-	"weekName": "Custom Week"
+	"weekName": "Custom Week",
+	"hiddenUntilUnlocked": true
 }

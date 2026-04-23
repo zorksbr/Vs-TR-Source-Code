@@ -1,12 +1,12 @@
 {
 	"dialogue": [
 		{
-			"expression": "confuso",
+			"expression": "medo",
 			"text": "Cara...",
 			"boxState": "normal",
 			"sound": "tr",
 			"speed": 0.05,
-			"portrait": "tr"
+			"portrait": "trdialogo"
 		},
 		{
 			"expression": "normal",
@@ -14,7 +14,7 @@
 			"boxState": "normal",
 			"sound": "tr",
 			"speed": 0.05,
-			"portrait": "tr"
+			"portrait": "trdialogo"
 		},
 		{
 			"expression": "talk",
@@ -25,36 +25,44 @@
 			"portrait": "bf"
 		},
 		{
-			"expression": "desconfiado",
-			"text": "Mas ainda eu não entendo porque isso ta acontecendo",
+			"expression": "medo",
+			"text": "...",
 			"boxState": "normal",
 			"sound": "tr",
-			"speed": 0.05,
-			"portrait": "tr"
+			"speed": 0.15,
+			"portrait": "trdialogo"
 		},
 		{
-			"expression": "talk",
-			"text": "denovo.",
+			"expression": "confused",
+			"text": "bep?",
 			"boxState": "normal",
 			"sound": "bf",
 			"speed": 0.05,
 			"portrait": "bf"
 		},
 		{
-			"expression": "confuso",
-			"text": "uhh...",
+			"expression": "medo",
+			"text": "Sei lá... acho que vai dar alguma coisa errada...",
 			"boxState": "normal",
 			"sound": "tr",
 			"speed": 0.05,
-			"portrait": "tr"
+			"portrait": "trdialogo"
 		},
 		{
 			"expression": "normal",
-			"text": "Tá bom!",
+			"text": "Mas deixa, vamos seguir em frente com isso!",
 			"boxState": "normal",
 			"sound": "tr",
 			"speed": 0.05,
-			"portrait": "tr"
+			"portrait": "trdialogo"
+		},
+		{
+			"expression": "excited",
+			"text": "Yeah!",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bf"
 		}
 	]
 }

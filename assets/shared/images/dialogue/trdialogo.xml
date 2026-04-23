@@ -2,9 +2,8 @@
 <TextureAtlas imagePath="trdialogo.png">
 	<!-- Created using the Spritesheet and XML generator -->
 	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
-	<SubTexture name="confuso0000" x="1533" y="0" width="511" height="868" frameX="-107" frameY="-200" frameWidth="800" frameHeight="1066"/>
-	<SubTexture name="indignado0000" x="0" y="868" width="511" height="868" frameX="-107" frameY="-200" frameWidth="800" frameHeight="1066"/>
-	<SubTexture name="normal0000" x="511" y="0" width="511" height="868" frameX="-107" frameY="-200" frameWidth="800" frameHeight="1066"/>
-	<SubTexture name="brabo0000" x="0" y="0" width="511" height="868" frameX="-107" frameY="-200" frameWidth="800" frameHeight="1066"/>
-	<SubTexture name="desconfiado0000" x="1022" y="0" width="511" height="868" frameX="-107" frameY="-200" frameWidth="800" frameHeight="1066"/>
+	<SubTexture name="assustado0000" x="1604" y="0" width="504" height="800" frameX="-168" frameY="-148" frameWidth="800" frameHeight="946"/>
+	<SubTexture name="bravo0000" x="577" y="0" width="523" height="854" frameX="-140" frameY="-94" frameWidth="800" frameHeight="946"/>
+	<SubTexture name="medo0000" x="0" y="0" width="577" height="854" frameX="-140" frameY="-94" frameWidth="800" frameHeight="946"/>
+	<SubTexture name="normal0000" x="1100" y="0" width="504" height="854" frameX="-140" frameY="-94" frameWidth="800" frameHeight="946"/>
 </TextureAtlas>

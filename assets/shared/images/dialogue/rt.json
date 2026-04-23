@@ -1,24 +1,24 @@
 {
-	"dialogue_pos": "left",
 	"position": [
 		-60,
-		-340
+		-270
 	],
-	"scale": 0.75,
+	"dialogue_pos": "left",
+	"scale": 0.6,
+	"image": "rt",
 	"animations": [
 		{
-			"loop_name": "rt",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "rt",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "rt",
-			"anim": "rt",
-			"loop_offsets": [
-				0,
-				0
-			]
+			"loop_name": "rt",
+			"idle_name": "rt"
 		}
-	],
-	"image": "rt"
+	]
 }

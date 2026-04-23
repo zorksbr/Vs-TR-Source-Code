@@ -2,4 +2,3 @@ tutorial
 tr
 rt
 freeplay
-topsecret

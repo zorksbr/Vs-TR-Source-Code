@@ -1,76 +1,63 @@
 {
-	"dialogue_pos": "left",
 	"position": [
 		-80,
-		-330
+		-260
 	],
-	"scale": 0.65,
+	"dialogue_pos": "left",
+	"scale": 0.6,
+	"image": "trdialogo",
 	"animations": [
 		{
-			"loop_name": "normal",
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				0
 			],
-			"idle_name": "normal",
 			"anim": "normal",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "normal",
+			"idle_name": "normal"
+		},
+		{
+			"loop_name": "bravo",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bravo",
+			"anim": "bravo",
 			"loop_offsets": [
 				0,
 				0
 			]
 		},
 		{
-			"loop_name": "brabo",
+			"loop_name": "medo",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "brabo",
-			"anim": "brabo",
+			"idle_name": "medo",
+			"anim": "medo",
 			"loop_offsets": [
 				0,
 				0
 			]
 		},
 		{
-			"loop_name": "indignado",
+			"loop_name": "assustado",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "indignado",
-			"anim": "indignado",
-			"loop_offsets": [
-				0,
-				0
-			]
-		},
-		{
-			"loop_name": "confuso",
-			"idle_offsets": [
-				0,
-				0
-			],
-			"idle_name": "confuso",
-			"anim": "confuso",
-			"loop_offsets": [
-				0,
-				0
-			]
-		},
-		{
-			"loop_name": "desconfiado",
-			"idle_offsets": [
-				0,
-				0
-			],
-			"idle_name": "desconfiado",
-			"anim": "desconfiado",
+			"idle_name": "assustado",
+			"anim": "assustado",
 			"loop_offsets": [
 				0,
 				0
 			]
 		}
-	],
-	"image": "trdialogo"
+	]
 }

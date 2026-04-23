@@ -2,5 +2,5 @@
 <TextureAtlas imagePath="rt.png">
 	<!-- Created using the Spritesheet and XML generator -->
 	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
-	<SubTexture name="rt0000" x="0" y="0" width="426" height="885" frameX="-148" frameY="-183" frameWidth="800" frameHeight="1066"/>
+	<SubTexture name="normal0000" x="0" y="0" width="479" height="852" frameX="-147" frameY="-96" frameWidth="800" frameHeight="946"/>
 </TextureAtlas>

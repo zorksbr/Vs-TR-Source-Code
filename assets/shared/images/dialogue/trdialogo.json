@@ -1,0 +1,63 @@
+{
+	"position": [
+		-80,
+		-260
+	],
+	"dialogue_pos": "left",
+	"scale": 0.6,
+	"image": "trdialogo",
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "assustado",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "assustado",
+			"idle_name": "assustado"
+		},
+		{
+			"loop_name": "bravo",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bravo",
+			"anim": "bravo",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "medo",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "medo",
+			"anim": "medo",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "normal",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "normal",
+			"anim": "normal",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}
